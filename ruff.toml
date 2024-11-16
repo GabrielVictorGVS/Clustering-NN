@@ -1,0 +1,39 @@
+# --------------------------------------------------------------------------------------------------------------------
+#  File        : ruff.toml
+#  Description : Ruff Tool Configuration File
+#  Author      : Stein
+#
+#  Creation Date     : 2024-11-14T12:55:07-03:00
+#  Modification Date : 2024-11-14T12:55:07-03:00
+#  Version           : 0.0.0
+#
+#  Notes: None
+#
+#  Copyright(C) 2024 MorningStar Corporation International. All Rights Reserved.
+# --------------------------------------------------------------------------------------------------------------------
+
+indent-width = 3
+
+fix = true
+
+[format]
+docstring-code-format = true
+docstring-code-line-length = 'dynamic'
+exclude = [
+	'.github',
+	'.venv',
+	'.vscode',
+	'data',
+	'docs',
+	'*.md',
+	'*.rst',
+	'*.toml',
+	'*.txt',
+	'.gitignore',
+	'.editorconfig'
+]
+indent-style = 'tab'
+line-ending = "lf"
+preview = false
+quote-style = 'single'
+skip-magic-trailing-comma = true

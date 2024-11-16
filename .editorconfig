@@ -1,0 +1,23 @@
+# --------------------------------------------------------------------------------------------------------------------
+#  File        : .editorconfig
+#  Description : EditorConfig Tool Configuration File
+#  Author      : Stein
+#
+#  Creation Date     : 2024-11-14T12:48:46-03:00
+#  Modification Date : 2024-11-14T12:48:46-03:00
+#  Version           : 0.0.0
+#
+#  Notes: None
+#
+#  Copyright(C) 2024 MorningStar Corporation International. All Rights Reserved.
+# --------------------------------------------------------------------------------------------------------------------
+
+root = true
+
+[*]
+indent_style = tab
+indent_size = 3
+trim_trailing_whitespace = true
+insert_final_newline = true
+charset = utf-8
+end_of_line = lf

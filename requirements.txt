@@ -1,0 +1,20 @@
+# --------------------------------------------------------------------------------------------------------------------
+#  File        : requirements.txt
+#  Description : PIP Production Dependency Requirements Listing File
+#  Author      : Stein
+#
+#  Creation Date     : 2024-11-14T12:57:11-03:00
+#  Modification Date : 2024-11-14T12:57:11-03:00
+#  Version           : 0.0.0
+#
+#  Notes: None
+#
+#  Copyright(C) 2024 MorningStar Corporation International. All Rights Reserved.
+# --------------------------------------------------------------------------------------------------------------------
+
+matplotlib
+scikit-learn
+pandas
+seaborn
+numpy
+tensorflow
